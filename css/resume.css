@@ -6,11 +6,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-top: 15px;
+  float: right;
 }
 
-.nav  {
-    float: right;
-}
+
 
 a {
     display: block;
