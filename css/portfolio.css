@@ -25,7 +25,7 @@ h2{
 
 /* Navigation */
 
-li {
+ul {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   margin: 0;
@@ -34,7 +34,7 @@ li {
   
 }
 
-ul {
+li {
   float: right;
 }
 
