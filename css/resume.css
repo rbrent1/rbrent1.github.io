@@ -1,14 +1,14 @@
 /* Your Website Styles */
 
 /* Navigation */
-.nav:ul {
+.nav {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav:li {
+.nav  {
     float: right;
 }
 
