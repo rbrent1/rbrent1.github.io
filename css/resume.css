@@ -80,19 +80,7 @@ div {
 	margin-top: -60px;	x 
 }
 
-a:hover {
-  background: #00EBE7;
-  text-decoration: none;
-}
 
-a:link {
- 	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	text-align: center;
-	text-decoration: none;
-
-}
 
 
 /* Show Grid */
