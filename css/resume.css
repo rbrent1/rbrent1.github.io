@@ -1,0 +1,73 @@
+/* Your Website Styles */
+body {
+	background: url(../img/bg.png);
+}
+
+p{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+ul{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+h1{
+	font-family: 'Alex Brush', cursive;
+	color: white;
+	font-size: 120px;
+	text-align: center;
+	margin: 0;
+}
+
+h2{
+	color: white;
+	font-family: 'Alex Brush', cursive;
+	text-align: center;
+	font-size: 70px;
+	margin: 0;
+}
+
+h3{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+hr {
+	background: #00EBE7;
+	height: 2px;
+	border: none;
+	width: 1000px;
+}
+
+
+
+
+div {
+	margin-top: -60px;	x 
+}
+
+a:hover {
+  background: #00EBE7;
+  text-decoration: none;
+}
+
+a:link {
+ 	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

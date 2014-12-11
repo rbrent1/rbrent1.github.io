@@ -1,0 +1,326 @@
+/* Your Website Styles */
+
+body {
+  background: url(../img/bg.png);
+}
+
+hr {
+  background: #00EBE7;
+  height: 2px;
+  border: none;
+  width: 1043px;
+  margin-left: 18px;
+}
+
+
+
+h2{
+  color: white;
+  font-family: 'Alex Brush', cursive;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+/* Navigation */
+ul {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    width: 85px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+a:hover {
+  color: #00EBE7;
+  text-decoration: underline;
+}
+
+
+
+
+/* Codepen Web 1 Notes*/
+
+/* Layout */
+.thumbnail {
+  
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.thumbnail h5 {
+
+  
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 100%;
+}
+
+/* First Frame */
+.thumbnail p{
+  background: #00EBE7;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: -150px;
+  margin-bottom: 0px;
+  width: 100%;
+  text-align: center;
+  
+  transition: bottom .5s ease-in-out;
+}
+
+/* Last Frame */
+.thumbnail:hover p {
+  bottom: 0;
+  
+}
+
+
+
+/* http://codepen.io/rbrent1/pen/Wbreov?editors=110 */
+
+
+h1 {
+text-align: center;
+font-family:'Alex Brush', cursive;
+font-size:120px;
+color:white;
+margin-top:5px;
+margin-bottom: -30px;
+text-shadow:0px 2px 3px rgba(110,83,83,0.4);
+}
+
+
+
+
+.wrapper{
+width:1089px;
+height:auto;
+margin: 0 auto;
+padding:0;
+
+}
+#thumb, #thumb2 {
+width:300px;
+height:200px;
+display:inline-block;
+background-color:white;
+position:relative;
+float:left;
+border: 10px solid rgba(255, 255, 255, 1);
+}
+
+#thumb {
+margin:20px 20px 20px 20px;
+}
+
+#thumb2{
+margin:10px 20px 30px 20px;
+}
+
+#thumb:hover, #thumb2:hover{
+transition:0.5s;
+box-shadow:0px 2px 3px rgba(70,53,53,0.4);
+}
+
+#thumb-img
+{width:300px;
+height:300px;
+z-index:100;}
+
+#thumb-img2
+{width:300px;
+height:300px;
+z-index:100;
+margin-top: -50px;}
+
+
+
+
+
+
+
+@media screen and (max-width: 1086px) {
+
+body {
+  background: url(../img/bg.png);
+}
+
+.hr {
+border:none;
+border-top:1px solid gray;
+padding-top:10px;}
+
+h1{
+margin-bottom:0px;}
+
+.wrapper
+{width:100%;
+height:auto;}
+
+#thumb, #thumb2 {
+float:left;
+width:350px;
+height:250px;
+border: 10px solid rgba(255, 255, 255, 1);
+}
+
+#thumb {
+float:left;
+margin-top:10px;
+}
+
+#thumb:first-child {
+margin-top:none;
+}
+
+#thumb2{
+margin:10px 20px 20px 20px;
+}
+
+#thumb:hover, #thumb2:hover{
+transition:0.5s;
+box-shadow:0px 5px 6px rgba(70,53,53,0.4);
+}
+
+
+.info {
+clear:both;}
+
+
+@media only screen and (max-width : 839px) {
+
+  body {
+  background: url(../img/bg.png);
+}
+
+h1 {
+font-size:100px;
+margin-bottom:-10px;}
+
+#thumb, #thumb2 {
+float:left;
+width:550px;
+margin-top:20px;
+height:366.666667px;
+border: 15px solid rgba(255, 255, 255, 1);
+}
+
+#thumb:hover, #thumb2:hover{
+transition:0.5s;
+box-shadow:0px 9px 13px rgba(70,53,53,0.4);
+}
+
+
+
+.hr{
+padding-top:20px;
+width:560px;}
+
+.info{
+font-size:20px;}
+
+}
+
+
+@media only screen and (max-width : 609px) {
+
+body {
+  background: url(../img/bg.png);
+}
+
+.hr{
+clear:both;
+width:95%;
+}
+
+h1 {
+font-size:5.65em;
+margin-bottom:10px;
+margin-right:10px;
+line-height:.9em;}
+
+.wrapper{
+width:100%;
+height:auto;
+padding:0;
+margin:0 auto;
+}
+
+#thumb, #thumb2 {
+background-color:rgba(255, 255, 255, 1);
+width:85%;
+height:auto;
+margin-top:20px;
+border: 15px solid rgba(255, 255, 255, 1);
+margin-left:3.46305419%;
+}
+
+#thumb:hover, #thumb2:hover{
+transition:0.5s;
+box-shadow:0px 6px 9px rgba(70,53,53,0.4);
+}
+
+.info{
+font-size:20px;}
+
+
+}
+
+
+@media only screen and (max-width : 463px) {
+
+h1 {
+font-size:3.7em;
+}
+
+body {
+  background: url(../img/bg.png);
+}
+
+}
+
+@media only screen and (max-width : 240px) {
+h1 {
+font-size:2em;
+}
+
+
+body {
+  background: url(../img/bg.png);
+}
+
+
+#thumb, #thumb2 {
+width:75%;
+height:auto;
+margin-top:10px;
+border: 10px solid rgba(255, 255, 255, 1);
+}
+}
+
+
+
+
+
+
