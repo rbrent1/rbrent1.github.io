@@ -25,12 +25,16 @@ h2{
 
 /* Navigation */
 
-.nav {
+li {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-top: 15px;
+  
+}
+
+ul {
   float: right;
 }
 
