@@ -32,10 +32,21 @@ a:hover {
 }
 
 
+hr {
+  background: #00EBE7;
+  height: 2px;
+  border: none;
+  width: 1043px;
+  margin-left: 18px;
+}
+
+
 h1{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Alex Brush', cursive;
 	color: white;
-	font-size: 55px;
+	font-size: 120px;
+	text-align: center;
+	margin: 0;
 }
 
 h2{
