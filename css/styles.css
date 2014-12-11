@@ -1,0 +1,125 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+/* Headers & body */
+h1 {
+	font-family: 'Alex Brush', cursive;
+	color: white;
+	margin-bottom: -10px;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Alex Brush', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-bottom: 6px;
+}
+
+em {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: url(../img/bg.png);
+}
+
+hr {
+	background: #00EBE7;
+	height: 2px;
+	border: none;
+	width: 1000px;
+}
+
+a:hover {
+  background: #00EBE7;
+  text-decoration: none;
+}
+
+a:link {
+ 	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+a:visited {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+
+/* Color Squares */
+.color-1 {
+	background: #00EBE7;
+}
+
+.color-2 {
+	background: #3FBAB9;
+}
+
+.color-3 {
+	background: #FFF;
+}
+
+
+
+
+
+/* Pattern Squares */
+.pattern-1 {
+	background: url(../img/bg.png) no-repeat;
+}
+
+.pattern-2 {
+	background: url(../img/light_grey.png) no-repeat;
+}
+
+.pattern-3 {
+	background: url(../img/knitting.png) no-repeat;
+}
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 2px solid #FFF;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
