@@ -63,6 +63,12 @@ p{
 	font-size: 18px;
 }
 
+h3{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
 
 #work img {
 	max-width: 100%;
