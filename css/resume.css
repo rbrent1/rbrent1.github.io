@@ -1,4 +1,32 @@
 /* Your Website Styles */
+
+/* Navigation */
+ul {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    width: 85px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+a:hover {
+  color: #00EBE7;
+  text-decoration: underline;
+}
+
+
 body {
 	background: url(../img/bg.png);
 }
