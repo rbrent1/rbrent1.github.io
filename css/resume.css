@@ -38,13 +38,20 @@ p{
 	text-align: center;
 }
 
-ul{
+ul {
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	text-align: center;
 }
 
+ul li:before {        
+  content:'\25e6';
+  margin-right:5px;    
+  vertical-align:middle;
+  font-size: 18px;
+  line-height:0;
+}
 
 
 h1{
