@@ -45,13 +45,7 @@ ul {
 	text-align: center;
 }
 
-ul li:before {        
-  content:'\25e6';
-  margin-right:5px;    
-  vertical-align:middle;
-  font-size: 18px;
-  line-height:0;
-}
+
 
 
 h1{
