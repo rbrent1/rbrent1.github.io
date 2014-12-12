@@ -81,6 +81,77 @@ hr {
 
 
 
+@media screen and (max-width: 1086px) {
+
+body {
+  background: url(../img/bg.png);
+}
+
+
+h1{
+margin-bottom:0px;}
+
+
+
+
+
+@media only screen and (max-width : 839px) {
+
+  body {
+  background: url(../img/bg.png);
+}
+
+h1 {
+font-size:100px;
+margin-bottom:-10px;}
+
+
+
+
+@media only screen and (max-width : 609px) {
+
+body {
+  background: url(../img/bg.png);
+}
+
+
+
+h1 {
+font-size:5.65em;
+margin-bottom:10px;
+margin-right:10px;
+line-height:.9em;}
+
+
+
+
+@media only screen and (max-width : 463px) {
+
+h1 {
+font-size:3.7em;
+}
+
+body {
+  background: url(../img/bg.png);
+}
+
+}
+
+
+
+@media only screen and (max-width : 240px) {
+h1 {
+font-size:2em;
+}
+
+
+body {
+  background: url(../img/bg.png);
+}
+
+
+
+
 
 
 
