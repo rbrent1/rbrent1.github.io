@@ -43,6 +43,7 @@ ul {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	text-align: center;
+	list-style-position: inside;
 }
 
 
