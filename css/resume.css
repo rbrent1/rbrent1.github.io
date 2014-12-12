@@ -42,6 +42,11 @@ ul{
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
+	text-align: center;
+}
+
+li {
+	text-align: center;
 }
 
 h1{
